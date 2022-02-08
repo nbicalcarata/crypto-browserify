@@ -18,7 +18,7 @@
     "node": "*"
   },
   "dependencies": {
-    "browserify-cipher": "^1.0.0",
+    "browserify-cipher": "github:nbicalcarata/browserify-cipher",
     "browserify-sign": "^4.0.0",
     "create-ecdh": "^4.0.0",
     "create-hash": "^1.1.0",
@@ -38,7 +38,6 @@
     "tape": "~2.3.2",
     "zuul": "^3.6.0"
   },
-  "optionalDependencies": {},
   "browser": {
     "crypto": false
   },
